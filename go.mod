@@ -24,4 +24,4 @@ require (
 	golang.org/x/sys v0.41.0 // indirect
 )
 
-replace github.com/malice-plugins/pkgs => github.com/rufftruffles/malice-plugins v1.0.1
+replace github.com/malice-plugins/pkgs => github.com/rufftruffles/malice-plugins v1.0.2
