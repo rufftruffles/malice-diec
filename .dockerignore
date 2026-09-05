@@ -1,0 +1,14 @@
+# Ignore .git folder
+.git*
+.gitignore
+
+.circleci*
+docs*
+tests*
+
+CHANGELOG.md
+LICENSE
+Makefile
+README.md
+NOTES.md
+build
