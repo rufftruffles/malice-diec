@@ -12,7 +12,7 @@ all: build size tag test_all
 
 .PHONY: build
 build:
-	docker build --build-context pkgs=../malice-plugins -t $(ORG)/$(NAME):$(VERSION) .
+	docker build -t $(ORG)/$(NAME):$(VERSION) .
 
 .PHONY: size
 size:
